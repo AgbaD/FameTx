@@ -33,8 +33,8 @@ export const Transactions = () => {
       const txn = await getAllTransactions()
       setTransactions(txn)
     }
-    if (address) getTransactions();
-  }, [address]);
+    if (address) { getTransactions() };
+  }, [address, getAllTransactions]);
 
   return (
     <section className="transactions" id="transactions">
