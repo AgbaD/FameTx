@@ -85,7 +85,7 @@ export const StateContextProvider = ({ children }) => {
       ethers.utils.getAddress(address);
       const parsedAmount = ethers.utils.parseEther(amount)
       const signer = await getProviderOrSigner(true);
-      const tx = await signer.sendTransaction({
+      await signer.sendTransaction({
         to: address,
         value: parsedAmount
       });

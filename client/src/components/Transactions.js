@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import imgUrl from "../assets/img/header-img.svg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { useStateContext } from "../context";
@@ -10,7 +9,7 @@ const TransactionCard = ({ addressTo, addressFrom, timestamp, message, amount })
   return (
     <Col size={12} sm={6} md={4}>
       <div className="txn-imgbx">
-        <img src={imgUrl} />
+        <img src={imgUrl} alt="transactions view"/>
         <div className="txn-txtx">
           <h4>From: {addressFrom.slice(0, 7) + '...' + addressFrom.slice(38)}</h4>
           <h4>To: {addressTo.slice(0, 7) + '...' + addressTo.slice(38)}</h4>
