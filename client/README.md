@@ -1,36 +1,36 @@
-## Getting Started
+# Personal Portfolio Website in React
 
-Create a project using this example:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-```bash
-npx thirdweb create --template vite-typescript-starter
-```
+<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
 
-You can start editing the page by modifying `src/main.tsx`. The page auto-updates as you edit the file.
+Built using:
 
-On `src/index.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+- Front-end library: React
+- CSS framework: React-bootstrap
+- CSS animations library: Animate.css
 
-### Deploy to IPFS
+In the /personal-portfolio, you can run:
 
-Deploy a copy of your application to IPFS using the following command:
+### `npm start`
 
-```bash
-yarn deploy
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Learn More
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-To learn more about thirdweb, Vite and React, take a look at the following resources:
+### `npm test`
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
-- [React documentation](https://reactjs.org/) - learn React.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+### `npm run build`
 
-## Join our Discord!
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
