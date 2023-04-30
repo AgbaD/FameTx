@@ -16,5 +16,10 @@ module.exports = {
         runs: 200,
       },
     },
+    etherscan: {
+      apiKey: {
+        etherscan: process.env.ETHERSCAN_KEY,
+      },
+    },
   },
 };
